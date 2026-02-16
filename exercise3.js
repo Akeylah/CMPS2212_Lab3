@@ -1,3 +1,4 @@
+//Exercise 3: The Object Context Challenge
 const display = document.querySelector('#count-display');
 const CounterApp = {
 count: 0,

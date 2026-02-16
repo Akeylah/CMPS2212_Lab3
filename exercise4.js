@@ -1,8 +1,9 @@
+//Exercise 4: Identifying the Bug
 const box = document.querySelector('.box');
 box.addEventListener('click', (event) => {
 // BUG: this.classList.add('active') throws an error
 //this.classList.add('active');
-    event.currentTarget.classList.add('active');
+   event.currentTarget.classList.add('active');
 });
 
 // Initial Error Explained: BUG: this.classList.add('active') throws an error
